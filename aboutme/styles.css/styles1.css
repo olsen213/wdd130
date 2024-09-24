@@ -1,0 +1,64 @@
+/* Basic CSS styles */
+
+/* Set the background color of the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for headings (h1, h2, etc.) */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #555;
+    text-align: left;
+    margin: 15px 0;
+}
+
+/* Style for paragraphs */
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 20px;
+}
+
+/* Style links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Basic button style */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Container with padding and a border */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
