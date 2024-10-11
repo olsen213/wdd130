@@ -1,7 +1,7 @@
 body {
     background-color: lightskyblue;
     text-align: center;
-    max-width: 0 auto;
+    max-width: 0, auto;
 }
 
 h1 {
