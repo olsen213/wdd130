@@ -1,0 +1,31 @@
+body {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+h1 {
+    color: white; 
+    font-style: bold;
+}
+
+h1 a:hover {
+    color: black;
+    font-size: 100px;
+    font-style: bold;
+}
+
+p {
+    color: white;
+    text-align: center;
+
+}
+
+p.blkfont {
+    color: black;
+    text-align: left;
+   
+}
+
+h4 {
+    color: black;
+}
