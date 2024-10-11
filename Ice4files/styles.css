@@ -1,6 +1,7 @@
 body {
     background-color: lightskyblue;
     text-align: center;
+    max-width: 0 auto;
 }
 
 h1 {
@@ -8,24 +9,24 @@ h1 {
     font-style: bold;
 }
 
-h1 a:hover {
+h1:hover {
     color: black;
-    font-size: 100px;
-    font-style: bold;
+    
 }
 
 p {
-    color: white;
+    color:white;
     text-align: center;
-
 }
 
-p.blkfont {
-    color: black;
-    text-align: left;
+blockquote {
+    color: white;
+    max-width: 0, auto;
+    text-align: center;
    
 }
 
 h4 {
     color: black;
+    width: 0, auto;
 }
