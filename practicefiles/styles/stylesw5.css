@@ -1,3 +1,28 @@
 body {
     margin: 0;
+    max-width: 50%;
+}
+
+
+img.desk {
+    padding: 25px;
+    border: 20px solid gray;
+    border-radius: 50%;
+
+}
+
+img.graphic {
+    padding: 25px;
+    border: 20px solid gray;
+    border-radius: 50%;
+}
+
+img.thinking {
+    padding: 25px;
+    border: 20px solid gray;
+    border-radius: 50%;
+}
+
+img.desk.graphic.thinking {
+    background-color: lightgray;
 }
