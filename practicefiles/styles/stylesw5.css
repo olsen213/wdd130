@@ -1,28 +1,28 @@
 body {
     margin: 0;
-    max-width: 50%;
+    max-width: 100%;
+    background-color: rgb(141, 139, 139);
 }
 
+img {
+    width: 100%
 
-img.desk {
-    padding: 25px;
-    border: 20px solid gray;
+}
+
+.graybox{
+    background-color: rgb(141, 139, 139);
+    text-align: center;
+    margin: 0 atuo;
+    max-height: 50%;
+    padding: 10px;
+    
+}
+
+img.circle {
+    width: 15%;
+    padding: 0;
+    margin: 0 20px;
+    border: 5px solid darkgray;
     border-radius: 50%;
-
-}
-
-img.graphic {
-    padding: 25px;
-    border: 20px solid gray;
-    border-radius: 50%;
-}
-
-img.thinking {
-    padding: 25px;
-    border: 20px solid gray;
-    border-radius: 50%;
-}
-
-img.desk.graphic.thinking {
-    background-color: lightgray;
+    display: inline;   
 }
