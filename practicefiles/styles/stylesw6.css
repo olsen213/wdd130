@@ -1,0 +1,24 @@
+.grid-box{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+h1 {
+    text-a
+}
+
+#cherries {
+    color: red;
+}
+
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    max-width: 50%;
+}
+
+#greybox {
+    background-color: gray;
+}
