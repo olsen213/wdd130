@@ -1,24 +1,36 @@
 .grid-box{
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
 h1 {
-    text-a
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+    color: black;
+    font-size: 100px;
+    z-index: 1;
+
 }
 
-#cherries {
-    color: red;
+h2 {
+    color: darkred;
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 50px;
 }
 
-img {
-    position: absolute;
-    left: 0px;
-    top: 0px;
+.cherries {
+    grid-column:1/3;
+    grid-row: 1/3;
     z-index: -1;
     max-width: 50%;
+    text-align: center;
 }
 
 #greybox {
+    grid-column: 2/3;
+    grid-row: 1/3;
     background-color: gray;
 }
