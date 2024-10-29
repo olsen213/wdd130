@@ -1,5 +1,11 @@
 /* CSS - Name: "positionstyles.css" */
 /* Activity 1 styles */
+@media screen and (max-width: 900px) { 
+  #hero, .home-grid{
+    display: block;
+    height: auto;
+  }
+}
 .content1 {
   /* This is the parent of the activity 1 boxes. */
   display: grid;
