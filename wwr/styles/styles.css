@@ -16,6 +16,7 @@ nav a {
     padding: 34px;
 }
 
+
 nav a:hover {
     background-color: #FBB13C;
     color: black;
@@ -145,10 +146,11 @@ header {
     border: 10px solid #218380;
     transition: transform .5s;
     box-shadow: 5px 5px 10px black;
+    max-height: 10em;
 }
 
-.card-img {
-    /* opacity: .6; */
+.card-img:hover{
+    opacity: .8;
     transform: scale(1.1);
 }
 
@@ -227,6 +229,9 @@ h2 {
     margin: 0;
 }
 
+.logo {
+    max-width: 100%;
+}
 #logo_link {
     padding-top: 5px;
     justify-self: center;
