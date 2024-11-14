@@ -1,44 +1,61 @@
+body {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: black;   
+}
+.card {
+    background-color: white;
+}
 .hero {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+   width: 100%;
 }
 
 h3 {
     color: lightskyblue;
     text-align: center;
+    
 
 }
 
 h1 {
     text-align: center;
+    
 }
 .main {
+    margin: auto 0;
     text-align: center;
     color: black;
+    font-size: 25px;
+    padding: 10px;
+   
 }
 
 footer {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: lightblue;
+    background-color: rgb(26, 53, 208);
     
+    color:white;
     justify-content: center;
-    align-items: center;
-    border-left: solid gray 10px;
-    border-right: solid gray 10px;
+    text-align: center;
     
 }
 
 .read {
-    align-items: center;
+    border-right: solid grey;
+    margin: 0;
+    font-size: large;
 }
 
 .views {
     align-items: center;
+    border-right: solid grey;
+    margin: 0;
+    font-size: large;
 }
 
 .comments {
     align-items: center;
+    font-size: large;
 }
