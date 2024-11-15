@@ -1,14 +1,23 @@
 body {
-    max-width: 400px;
+    max-width: 50%;
     margin: 0 auto;
-    background-color: black;   
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .card {
     background-color: white;
+    border: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .hero {
     display: block;
-   width: 100%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 h3 {
@@ -27,7 +36,7 @@ h1 {
     text-align: center;
     color: black;
     font-size: 25px;
-    padding: 10px;
+    padding: 20px;
    
 }
 
@@ -39,12 +48,15 @@ footer {
     color:white;
     justify-content: center;
     text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     
 }
 
 .read {
     border-right: solid grey;
     margin: 0;
+    padding: 15px;
     font-size: large;
 }
 
@@ -52,6 +64,7 @@ footer {
     align-items: center;
     border-right: solid grey;
     margin: 0;
+    padding: 20px;
     font-size: large;
 }
 
